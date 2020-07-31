@@ -1,0 +1,19 @@
+{
+    "name": "vasnikak/mongo-schemist",
+    "description": "A schema analyzer for MongoDB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vasnikak",
+            "email": "vasnikak@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"MongoSchemist\\": "src/"}
+    },
+    "require": {
+        "mongodb/mongodb": "^1.6"
+    }
+}
