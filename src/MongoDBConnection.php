@@ -18,10 +18,8 @@ class MongoDBConnection {
 	 * @param string $connString    MongoDB connection string
 	 * @param array  $uriOptions    Additional connection string options
      * @param array  $driverOptions Driver-specific options
-	 *
+     * @return MongoDB\Client The client for the MongoDB instance
 	 * @throws MongoDBConnectionException In case the connection could not be established
-	 *
-	 * @return MongoDB\Client The client for the MongoDB instance.
 	 */
 	public static function getClient($connString, $uriOptions = [], $driverOptions = []) {
 		try {
@@ -36,7 +34,6 @@ class MongoDBConnection {
 	 * Tests if the connection is established with the MongoDB instance.
 	 *
 	 * @param MongoDB\Client $mongoClient A MongoDB client instance
-	 *
 	 * @throws MongoDBConnectionException In case the connection could not be established
 	 */
 	public static function testConnection($mongoClient) {
