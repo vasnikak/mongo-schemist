@@ -1,0 +1,26 @@
++-------------------------------------------------+
+| keys          | types   | occurences | percents |
+|---------------|---------|------------|----------|
+| _id           | String  |          7 |    100.0 |
+| phone         | String  |          7 |    100.0 |
+| greeting      | String  |          7 |    100.0 |
+| friends       | Array   |          7 |    100.0 |
+| tags          | Array   |          7 |    100.0 |
+| longitude     | Number  |          7 |    100.0 |
+| latitude      | Number  |          7 |    100.0 |
+| registered    | String  |          7 |    100.0 |
+| about         | String  |          7 |    100.0 |
+| address       | String  |          7 |    100.0 |
+| email         | String  |          7 |    100.0 |
+| index         | Number  |          7 |    100.0 |
+| company       | String  |          7 |    100.0 |
+| gender        | String  |          7 |    100.0 |
+| name          | String  |          7 |    100.0 |
+| eyeColor      | String  |          7 |    100.0 |
+| age           | Number  |          7 |    100.0 |
+| picture       | String  |          7 |    100.0 |
+| balance       | String  |          7 |    100.0 |
+| isActive      | Boolean |          7 |    100.0 |
+| guid          | String  |          7 |    100.0 |
+| favoriteFruit | String  |          7 |    100.0 |
++-------------------------------------------------+
